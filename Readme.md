@@ -18,7 +18,7 @@ Use the generate.js script to generate a QR code and save the secret.
 
 ```bash
 const fs = require('fs');
-const TwoFactorAuth = require('./index');
+const TwoFactorAuth = require('2fa-auth');
 
 const twoFA = new TwoFactorAuth();
 const user = 'example@gmail.com';
